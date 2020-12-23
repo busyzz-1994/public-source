@@ -4,5 +4,5 @@ WORKDIR /usr/src/app
 COPY . .
 RUN yarn install
 EXPOSE 4000
-CMD npm start
+CMD node index.js
 
