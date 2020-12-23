@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start":"pm2 start index.js --name publice-source --watch",
-    "stop":"pm2 stop publice-source"
+    "start":"pm2 start index.js --name public-source --watch",
+    "stop":"pm2 stop public-source"
   },
   "dependencies": {
     "express": "^4.17.1"
