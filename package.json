@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start":"pm2 start index.js --name publice-source --watch",
+    "stop":"pm2 stop publice-source"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
